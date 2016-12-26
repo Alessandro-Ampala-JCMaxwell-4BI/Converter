@@ -30,22 +30,6 @@ public class Converter{
 	
 	public static void main(String[] args)
 	{
-		
-		
-		/*//apertura file sorgente e creazione file di output
-		try
-		{
-			System.out.println("Insere percorso file: ");
-			String path = s.next();
-			in = new FileInputStream(path);
-			out = new Formatter("UML.txt");
-		}
-		catch(FileNotFoundException e)
-		{
-			System.out.println("File non è stato trovato. Sei sicuro che il percorso inserito sia giusto?");
-		}*/
-		
-		
 		try
 		{
 			System.out.println("Insere percorso file: ");
@@ -118,7 +102,7 @@ public class Converter{
 						{
 							if(nomeClasse == (caso = caso.substring(0, caso.length()-1)))
 							{
-								
+								//metodo non finito
 							}
 							
 						}
